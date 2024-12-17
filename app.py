@@ -82,14 +82,14 @@ model = GenerativeModel(
 )
 
 st.set_page_config(
-    page_title="SQL Talk with BigQuery",
+    page_title="NLP to SQL",
     page_icon="vertex-ai.png",
     layout="wide",
 )
 
 col1, col2 = st.columns([8, 1])
 with col1:
-    st.title("SQL Talk with BigQuery")
+    st.title("NLP to SQL")
 with col2:
     st.image("vertex-ai.png")
 
